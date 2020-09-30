@@ -6,6 +6,16 @@
 
 ## 1. Prerequisites
 
+The following prerequisites are recommended in order to complete the Labs.
+
+1. Permission to install Docker & VS Code
+2. Docker installed for your Operations System
+    - [Install Docker for Linux](https://docs.docker.com/engine/install/)
+    - [Install Docker Desktop for Mac](https://docs.docker.com/docker-for-mac/install/)
+    - [Install Docker Desktop for Windows](https://docs.docker.com/docker-for-windows/install/)
+3. [Install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+
+
 ## 2. Install VS Code
 
 1. Download VS Code for your Operating System https://code.visualstudio.com/download
