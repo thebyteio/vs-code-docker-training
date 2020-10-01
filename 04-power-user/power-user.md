@@ -71,7 +71,7 @@ RUN apk add --no-cache mysql-client
 CMD [ "mysql" ]
 ```
 
-## 8. Connect to Docker Hosts direct from VS Code
+## 6. Connect to Docker Hosts direct from VS Code
 
 Using the `docker context` feature we can connect to remote Docker hosts. In this demo we start a container running Docker in Docker (DND). We can then connect to the DND container and launch containers inside the DND container completely separated from our original environment.
 
