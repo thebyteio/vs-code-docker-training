@@ -71,6 +71,17 @@ RUN apk add --no-cache mysql-client
 CMD [ "mysql" ]
 ```
 
+## 8. Connect to Docker Hosts direct from VS Code
+
+Using the `docker context` feature we can connect to remote Docker hosts. In this demo we start a container running Docker in Docker (DND). We can then connect to the DND container and launch containers inside the DND container completely separated from our original environment.
+
+1. Start Docker in Docker `docker run --rm -d -p 2375:2375 --privileged -e "DOCKER_TLS_CERTDIR=" --name dind docker:19.03-dind`
+2. Create context `docker context create dind --docker "host=tcp://127.0.0.1:2375" --default-stack-orchestrator swarm`
+3. Open the Docker Extension
+4. Expand the `Contexts` section
+5. Right click on `DIND` and click `use`
+6. Launch a test container inside the DND container: `docker container run --rm -tip 5000:5000 --name cats mikesir87/cats:1.0`
+7. You should now see the Cats image and Cat container appear.
 
 # Continue to the next section, Debug Docker with VS Code
 
