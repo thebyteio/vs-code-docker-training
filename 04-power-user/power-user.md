@@ -12,7 +12,7 @@ The course will refer to Microsoft Visual Studio Code as VS Code.
 
 ## 1. Bootstrap a New Project
 
-First, we will boostrap our Python Flask project.
+First, we will bootstrap our Python Flask project.
 
 1. Checkout this repo locally where you have VS Code installed `git clone https://github.com/thebyteio/vs-code-docker-training.git`
 2. Open VS Code
@@ -50,6 +50,26 @@ Now, head back to File explorer which is the file icon in the top left
 We finished working with our Cat GIF application so now it is time to cleanup.
 
 1. Right click on `docker-compose.yml` and select `Compose Down`
+
+## 5. Write a Dockerfile with Command Completion
+
+Now, we will create a blank Dockerfile and fill in the Dockerfile using command completion and query Docker Hub
+
+1. Create a new file in the **`04-power-user/app.py`** directory called `Dockerfile`
+2. First line type: `FRO` and type `CTRL+Space` to see the command completion
+3. Select, `FROM`
+4. Now type the image name with just the first characters `alp` and again `CTRL + Space` to get command completion to get the image name `alpine` and click on the top image to use the official image
+5. Now query the tags from Docker Hub by typing `alpine:` and again `CTRL + Space` to query the image tags
+6. Type the below Dockerfile
+7. Final line type `CM` and again `CTRL + Space`to get the `CMD` command completion
+
+```docker
+FROM alpine:3.12
+
+RUN apk add --no-cache mysql-client
+
+CMD [ "mysql" ]
+```
 
 
 # Continue to the next section, Debug Docker with VS Code
