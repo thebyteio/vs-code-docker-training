@@ -31,14 +31,14 @@ Now, we will start debugging why our application is not starting by inserting br
 2. Click and open `app.py`
 3. To the left of line 23 hover with your mouse and you will see a red dot appear (Breakpoint). Click the red dot to create a breakpoint.
 
-<img src="./../img/05-lab-debug-breakpoint.png" alt="VS Code Debug breakpoint" height="350"> 
+<img src="./../img/05-lab-debug-breakpoint.png" alt="VS Code Debug breakpoint"> 
 
-4. Open the Debug screen (Triangle with the bug) and hover over the `WATCH` section and click the `+`
-5. Type `images` for the Expression to watch
-<img src="./../img/05-lab-debug-add-watch-images.png" alt="VS Code Debug watch expression" height="350"> 
+1. Open the Debug screen (Triangle with the bug) and hover over the `WATCH` section and click the `+`
+2. Type `images` for the Expression to watch
+<img src="./../img/05-lab-debug-add-watch-images.png" alt="VS Code Debug watch expression"> 
 
-6. Start Debug Click Green Triangle at the top of Debug screen
-7. Review the `Variable` and `WATCH` screen output. You should notice the `imagess` variable is captured and shows the images while the `WATCH` returns an error.
+1. Start Debug Click Green Triangle at the top of Debug screen
+2. Review the `Variable` and `WATCH` screen output. You should notice the `imagess` variable is captured and shows the images while the `WATCH` returns an error.
 
 ## 3. Fix Our Demo App.
 
