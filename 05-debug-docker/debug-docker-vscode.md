@@ -54,7 +54,10 @@ images = [
 
 4. Open the Debug screen again
 5. Start Debug
-6. Celebrate for fixing our application!
+6. We should now see the variables populate in the `WATCH` window
+7. Once we see the `images` variable works we can remove the `breakpoint` in the `app.py` file on line 23 by clicking the red dot.
+8. Rerun Debug
+9. Celebrate for fixing our application!
 
 # Continue to the next section, Remote Development in Containers
 
