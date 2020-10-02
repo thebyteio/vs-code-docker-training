@@ -26,7 +26,7 @@ The following prerequisites are recommended in order to complete the Labs.
 Once VS Code is installed we can install the Docker Extension using the VS Code Marketplace
 
 1. Open the VS Code Marketplace
-2. Type Docker in the Marketplace search
+2. Type `Docker` in the Marketplace search
 3. Click `install` on the Official Docker extension
 
 
