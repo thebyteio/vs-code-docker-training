@@ -2,7 +2,7 @@
 
 <img src="./img/vs-code-docker-training.png" alt="VS Code and Docker training" height="350">  
 
-Welcome to [theByte](https://www.thebyte.io) training platform. This repo contains all the labs and material for the [Become a Docker Power User with Microsoft Visual Studio Code Course](https://www.thebyte.io/become-a-docker-power-user-with-microsoft-visual-studio-code). The course covers [Visual Studio Code](https://code.visualstudio.com) and the [VS Code Docker extension](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker). The goal of the course is to demonstrate new workflows, tips, tricks, improve your Docker/Development workflows and make you a **Docker Power User** by the conclusion of the course.
+Welcome to [theByte](https://www.thebyte.io) training platform. This repo contains all the labs and material for the [Become a Docker Power User with Microsoft Visual Studio Code Course](https://www.thebyte.io/become-docker-power-user-with-vs-code). The course covers [Visual Studio Code](https://code.visualstudio.com) and the [VS Code Docker extension](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker). The goal of the course is to demonstrate new workflows, tips, tricks, improve your Docker/Development workflows and make you a **Docker Power User** by the conclusion of the course.
 
 The course is authored both by the respective companies or organizations, and by members of the community. We welcome contributions and want to grow the repo.
 
