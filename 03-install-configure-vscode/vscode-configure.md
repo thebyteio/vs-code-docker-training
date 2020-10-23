@@ -38,4 +38,4 @@ Once VS Code is installed we can install the Docker Extension using the VS Code 
 
 # Continue to the next section, Docker & VS Code Power User mode
 
-### Click here to continue -> [04 Power User](./../04-power-user/poweruser.md)
+### Click here to continue -> [04 Power User](./../04-power-user/power-user.md)
